@@ -65,7 +65,7 @@ public class PrimeNumberCounter {
 	 * @param number
 	 * @return
 	 */
-	private boolean isPrimeNumber(int number) {
+	public boolean isPrimeNumber(int number) {
 		// 素数は1とその数自身以外で割り切れない数
 		for (int i = 2; i < number; i++) {
 			if (number % i == 0) {
